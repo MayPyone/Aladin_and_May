@@ -9,22 +9,54 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <h1>Hello World!</h1>
+    <h1>Product Landing Page</h1>
+   <body>
     <header id="header">
       <img id="header-img" src="">
       </img>
+  
+      </header>
       <nav id="nav-bar">
-        <ul >
-          <li ><a class="nav-link" href="Products">Products</a></li>
-          <li ><a class="nav-link" href="Prices">Prices</a></li>
-          <li><a class="nav-link" href="
-    ">Compilation</a></li>
-          </ul>
-      </nav>
-    
-    </header>
+    <ul>
+    <li><a class="nav-link" href="#product">product</a></li>
+    <li><a class="nav-link" href="#price">Price</a></li>
+   <li><a class="nav-link" href="#comparison">Comparison</a></li>
+   </ul>
+   </nav>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input id="email" placeholder="Enter your email address" type="email" name="email" required>
+    <br><input id="submit" type="submit" value="Sign Up Here" class="btn"/></br>
+    </form>
+      <iframe id="video" src= "https://www.pexels.com/videos/"></iframe>
+    </body>
 
   
     <script  src="js/index.js"></script>
+<footer>
+  <ul>
+    <li><a href="#product">Products</li>
+    <li><a href="#prices">Prices</li>
+    <li><a href="#comparison">Compare</li>
+  </ul>
+</footer>
+
   </body>
 </html>
+
+
+
+.nav-link {
+  justify-content: flex-end;
+  position: positioned;
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  left:0;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
